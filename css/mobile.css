@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    justify-content: space-between;
+}
+
+.nav-list {
+    position: absolute;
+    top: 50px;
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.logo {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+
+.mobile-menu {
+    position: absolute;
+    right: 0;
+    display: block;
+}
