@@ -1,8 +1,3 @@
-body {
-    width: 100%;
-    height: 200vh;
-}
-
 .navbar {
     width: 100%;
     height: 50px;
@@ -26,7 +21,6 @@ body {
     flex-direction: column;
     background: #ffffff;
     box-shadow: 0px 4px 0px 0px rgba(223, 62, 62, 0.9);
-
     transition: left .2s;
 }
 
@@ -61,7 +55,7 @@ body {
 }
 
 #header {
-    margin: 50px 0 30px 0;
+    margin: 0px 0 30px 0;
     height: 50vh;
 }
 
@@ -128,6 +122,10 @@ body {
     #oQueE {
         height: 1450px;
     }
+}
+
+.titulos  {
+
 }
 
 .titulo-oqe, 
@@ -234,7 +232,7 @@ body {
 
 #diagnostico {
     height: 1100px;
-    margin: 0px 0 0 0;
+    margin: 30px 0 0 0;
     padding: 20px 0 0 0;
 }
 
@@ -256,6 +254,34 @@ body {
     font-size: 14px;
 }
 
+.subtitulo-diag {
+    font-size: 15px;
+}
+
 #tratamento, #prevencao {
-    display: none;
+    padding-top: 30px;
+    height: 600px;
+}
+
+.container-tratamento {
+    flex-direction: column;
+}
+
+.img-tratamento {
+    width: 90%;
+}
+
+.desc-tratamento, .desc-prevencao {
+    width: 90%;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.img-prevencao {
+    width: 90%;
+}
+
+#footer {
+    margin: 0 0 0 0;
 }
