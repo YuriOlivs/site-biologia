@@ -4,3 +4,5 @@ e Gíardiase.
 
 # 🔗 Link do site:
 https://yuriolivs.github.io/siteGiardiaseAmebiase/
+
+![Blood test-pana](https://user-images.githubusercontent.com/75813083/188983262-233d6d29-f573-4dab-b503-3768e7c1427a.svg)
