@@ -71,22 +71,22 @@ body {
 }
 
 .line {
-    height: 5px;
-    background-color: #DF3E3E;
+    height: 4px;
+    background-color: #df3e3e;
     margin: 5px 0 5px 0;
     border-radius: 20px;
 }
 
 .line1 {
-    width: 35px;
-}
-
-.line2 {
     width: 30px;
 }
 
-.line3 {
+.line2 {
     width: 25px;
+}
+
+.line3 {
+    width: 20px;
 }
 
 .nav-list {
@@ -125,6 +125,12 @@ body {
 
 .nav-link:hover::after {
     width: 100%;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {

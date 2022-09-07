@@ -1,4 +1,7 @@
 const navBar = document.getElementById("navbar"), 
+    navList = document.getElementById("navList"),
+    navListPosition = navList.getAttribute("left"),
+    mobileMenu = document.getElementById("mobileMenu"),
     verMais = document.getElementById("verMais"),
     target = document.querySelectorAll("[data-anime]");
 
@@ -17,4 +20,13 @@ const ativarScroll = () => {
     })    
 }
 
+const mobileNavbar = () => {
+    if(navListPosition == 0) {
+        navList.classList.remove("nav-list-active")
+    }  else {
+        navList.classList.toggle("nav-list-active")
+    }
+}
+
 window.addEventListener("scroll", ativarScroll)
+mobileMenu.addEventListener("click", mobileNavbar)
