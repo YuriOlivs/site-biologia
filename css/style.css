@@ -254,6 +254,10 @@ body {
     color: #555555;
 }
 
+.veja-mais-mobile {
+    display: none;
+}
+
 .display-none {
     display: none;
 }
