@@ -6,7 +6,10 @@ Site responsivo criado para um trabalho interdisciplinar de Biologia, Programaç
 
 # 🔧Ferramentas (feito sem frameworks):
 <div style="display: inline_block">
-    <img align="center" alt="Luigi-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="Luigi-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Luigi-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    <img align="center" alt="Yuri-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="Yuri-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="Yuri-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div> 
+
+# 🤳 QR Code
+<img align="center" alt="QR-Code" height="60" widhth="60" src="img/qrcode.png">
