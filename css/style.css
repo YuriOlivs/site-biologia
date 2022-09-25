@@ -240,6 +240,7 @@ body {
     width: 700px;
     font-size: 24px;
     margin: 50px 0 0 0;
+    word-wrap: break-word;
 }
 
 .veja-mais {
@@ -252,6 +253,10 @@ body {
     justify-content: center;
     text-align: center;
     color: #555555;
+}
+
+.veja-mais-mobile {
+    display: none;
 }
 
 .display-none {
@@ -354,9 +359,21 @@ body {
 
 .desc-img-oqe {
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     width: 100%;
     text-align: center;
+}
+
+.desc-img-oqe a {
+    color: #2c2c2c;
+}
+
+.desc-img-oqe a:active {
+    color: #DF3E3E;
+}
+
+.desc-img-oqe a:focus {
+    color: #DF3E3E;
 }
 
 #sintomas {
@@ -565,10 +582,63 @@ body {
     margin: 0 100px 0 200px;
 }
 
+#bibliografia {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+details > summary {
+    list-style-type: '+ ';
+}
+
+details[open] > summary {
+    list-style-type: '- ';
+}
+
+.detalhes-bibliografia {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.biblio-title {
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.biblio-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.txtBibliografia {
+    width: 50%;
+    margin-bottom: 5vh;
+}
+
+.txtBibliografia a {
+    color: #2c2c2c;
+}
+
 #footer {
     width: 100%;
     height: 150px;
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: #DF3E3E;
     color: #FFFFFF;
     display: flex;

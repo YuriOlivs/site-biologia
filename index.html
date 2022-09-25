@@ -6,7 +6,7 @@
     <link rel="icon" type="img/png" href="img/bacterias.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 449px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 999px)">
     <title>Amebíase e Gíardiase</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
         </ul>
     </nav>
 
-    <section id="content">
+    <div id="content">
         <section id="header">
             <div class="container-header">
                 <div class="texto-header">
@@ -43,12 +43,14 @@
                 <img src="img/Blood test-pana.svg" alt="" class="img-header select-disable">
             </div>
     
-            <a href="#oQueE">
-                <span class="veja-mais setinha" id="verMais">
-                    Veja mais abaixo <br>
-                    <span class="material-symbols-outlined setinha">expand_more</span>
-                </span>
-            </a>
+            <span class="veja-mais setinha" id="verMais">
+                Veja mais abaixo <br>
+                <span class="material-symbols-outlined setinha">expand_more</span>
+            </span>
+            <span class="veja-mais-mobile setinha">
+                Veja mais abaixo <br>
+                <span class="material-symbols-outlined setinha">expand_more</span>
+            </span>
         </section>
         
         <section id="oQueE">
@@ -60,12 +62,18 @@
                     <div class="textos-oqe-giardiase">
                         <h3 class="titulo-texto-oqe">Gíardiase</h3>
                         <p class="descricao-oqe">
-                            A Gíardiase é uma infecção causada pelo protozoário <i>Giardia Lamblia</i> e afeta o intestino delgado, sua contaminação
+                            A Gíardiase é uma infecção causada pelo protozoário <i>Giardia lamblia</i> e afeta o intestino delgado, sua contaminação
                             ocorre através de água e alimentos contaminados, falta de higiene e contato com pessoas infectadas. 
                         </p>
     
-                        <img src="img/giardia.png" alt="" class="img-agente select-disable">
-                        <span class="desc-img-oqe"><i>Giardia Lamblia</i>, agente causador da gíardiase.</span>
+                        <img src="https://www.researchgate.net/profile/Hadi-Abd/publication/290433467/figure/fig2/AS:616376788062236@1523967086818/The-figure-demonstrates-the-protozoic-parasite-Giardia-intestinalis-cysts-1000x.png" alt="" class="img-agente select-disable">
+                        <span class="desc-img-oqe">
+                            <i>Giardia lamblia</i>, agente causador da gíardiase. (Imagem microscópica) <br>
+                            Fonte: <a target="_blank" href="https://www.researchgate.net/figure/The-figure-demonstrates-the-protozoic-parasite-Giardia-intestinalis-cysts-1000x_fig2_290433467">
+                                ResearchGate
+                            </a>
+                        </span>
+                        </span>
                     </div>
                 </div>
                 <div class="oqe-amebiase" data-anime="bottom">
@@ -77,8 +85,13 @@
                             pode se espalhar para o fígado e raramente para outras partes do corpo, como os pulmões e até o cérebro.
                         </p>
     
-                        <img src="img/entamoeba.png" alt="" class="img-agente select-disable">
-                        <span class="desc-img-oqe"><i>Entamoeba histolytica</i>, agente causador da amebíase.</span>
+                        <img src="https://parasitologiaclinica.ufsc.br/assets/img/laminas/cisto_hysto_8.jpg" alt="" class="img-agente select-disable">
+                        <span class="desc-img-oqe">
+                            <i>Entamoeba histolytica</i>, agente causador da amebíase. (Imagem microscópica) <br>
+                            Fonte: <a target="_blank" href="https://parasitologiaclinica.ufsc.br/index.php/info/conteudo/fotografias/cistos-ehysto/">
+                                Atlas de Parasitologia Clinica
+                            </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -177,9 +190,55 @@
                 <img src="img/Handwashing-pana.svg" alt="" class="img-prevencao select-disable">
             </div>
         </section>
-    </section>
+    </div>
 
-    <section id="footer">
+    <div id="bibliografia">
+        <details class="detalhes-bibliografia">
+        <summary class="biblio-title">Bibliografia</summary>
+        <p>
+            <ul class="biblio-list">
+                <li class="txtBibliografia">
+                    <b>BRAZ, Runa.</b> Giardíase. Drauzio Varella Uol, 25 de abril de 2019.
+                    Disponível em: <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/giardiase/">https://drauziovarella.uol.com.br/doencas-e-sintomas/giardiase/</a>. Acesso em 24 agosto de 2022.
+                </li>
+                <li class="txtBibliografia">
+                    Giardíase. <b>Secretaria de Estado de Saúde</b>, 21 de novembro de 2019.
+                    Disponível em: <a href="https://www.saude.go.gov.br/biblioteca/7621-giard%C3%ADase">https://www.saude.go.gov.br/biblioteca/7621-giard%C3%ADase</a>. Acesso em 24 de agosto de 2022
+                </li>
+                <li class="txtBibliografia">
+                    <b>SANTOS, V. S.</b> Giardíase. Biologianet, [2015?].
+                    Disponível em: <a href="https://www.biologianet.com/doencas/.htm#:~:text=A%20giard%C3%ADase%20%C3%A9%20
+                    uma%20doen%C3%A7a,intestino%20delgado%20e%20desencadeia%20diarreia.&text=A%20Giardia%20intestinalis
+                    %2C%20tamb%C3%A9m%20chamada,intestino%20delgado%2C%20da%C3%AD%20seu%20nome">
+                        https://www.biologianet.com/doencas/.htm#:~:text=A%20giard%C3%ADase%20%C3%A9%20
+                        uma%20doen%C3%A7a,intestino%20delgado%20e%20desencadeia%20diarreia.&text=A%20Giardia%20intestinalis
+                        %2C%20tamb%C3%A9m%20chamada,intestino%20delgado%2C%20da%C3%AD%20seu%20nome
+                    </a>. Acesso em 24 de agosto de 2022.
+                </li>
+                <li class="txtBibliografia">
+                    <b>PEARSON, R. D.</b> Giardíase. Manual MSD, maio de 2020.
+                    Disponível em: <a href="https://www.msdmanuals.com/pt-br/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-
+                    protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase#v14458262_pt"> https://www.msdmanuals.com/pt-br/casa/infec%C3%A7%C3%B5es
+                    /infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/giard%C3%ADase#v14458262_pt</a>. Acesso em 24 de agosto de 2022.
+                </li>
+                <li class="txtBibliografia">
+                    <b>PEARSON, R. D.</b> Amebíase. Manual MSD, maio de 2020.
+                    Disponível em: <a href="https://www.msdmanuals.com/pt-br/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/ameb%C3%ADase#v786513_pt">https://www.msdmanuals.com/pt-br/casa/infec%C3%A7%C3%B5es/infec%C3%A7%C3%B5es-parasit%C3%A1rias-protozo%C3%A1rios-intestinais-e-microspor%C3%ADdios/ameb%C3%ADase#v786513_pt</a>. Acesso em 24 de agosto de 2022.
+                </li>
+                <li class="txtBibliografia">
+                    <b>TARGINO, Susana.</b> Amebíase: o que é, causa e tratamentos. Minha Vida, 17 novembro de 2014.
+                    Disponível em: <a href="https://www.minhavida.com.br/saude/temas/amebiase">https://www.minhavida.com.br/saude/temas/amebiase</a>. Acesso em 24 de agosto de 2022.
+                </li>
+                <li class="txtBibliografia">
+                    <b>LEMOS, Marcela.</b> Amebíase, o que é, sintomas, transmissão e tratamento. Tua Saúde, março de 2022.
+                    Disponível em: <a href="https://www.tuasaude.com/sintomas-de-amebiase/">https://www.tuasaude.com/sintomas-de-amebiase/</a>. Acesso em 24 de agosto de 2022.
+                </li>
+            </ul>
+        </p>
+        </details>
+    </div>
+
+    <footer id="footer">
         <div>
             <span>© Copyright 2022 - Yuri Oliveira</span>
             <div class="container-img-sobre">
@@ -189,7 +248,7 @@
             </div>
             <span><a href="https://br.freepik.com/autor/stories" class="link-footer">Images by storyset</a> on Freepik</span>
         </div>
-    </section>
+    </footer>
 
     <script src="js/index.js"></script>
 </body>
