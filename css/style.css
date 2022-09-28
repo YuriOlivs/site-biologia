@@ -613,6 +613,7 @@ details[open] > summary {
     text-align: center;
     font-size: 2vh;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .biblio-list {
